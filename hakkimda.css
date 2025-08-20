@@ -1,0 +1,32 @@
+ 
+ body {
+  background: linear-gradient(to bottom, #063b95, #7b2ff7, #801f59);
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0 20px 40px 20px;
+    min-height: 100vh; /* Viewport yüksekliği kadar */
+}
+
+
+
+.hakkimda {
+  max-width: 700px;   /* yanlara doğru genişleme */
+  margin: 50px auto;   /*sayfanın uzunlığu */
+  line-height: 1.6;       /*satırlar arası boşluk */
+  color: white;            /* yazıların rengi */
+  background: rgba(0, 0, 0, 0.2);  /* metinin yazılı olduğu yer (şefaf) */
+  padding: 20px 30px;      /*şefaf yerin uzunluğu ve genişliği*/
+  border-radius: 15px;   /* şefaf kenar düzeltmelri */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  font-family: Arial, sans-serif;
+}
+
+.hakkimda h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  border-bottom: 2px solid #ff6ec4;
+  padding-bottom: 10px;
+}
+
