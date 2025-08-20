@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #00c6ff, #7b2ff7, #ff6ec4);
+  background: linear-gradient(to bottom, #00c6ff, #7b2ff7, #730e4a);
   font-family: Arial, sans-serif;
   color: white;
   margin: 0;
@@ -36,7 +36,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ff6ec4;    /*imleç gelinince pembe */
+  color: #8b135b;    /*imleç gelinince pembe */
 }
 
 section {
@@ -49,7 +49,7 @@ section {
 }
 
 section h2 {
-  border-bottom: 2px solid #ff6ec4;
+  border-bottom: 2px solid #75144e;
   padding-bottom: 10px;
   margin-bottom: 20px;
   font-size: 2rem;
@@ -65,11 +65,25 @@ section ul li {
 }
 
 #iletisim img {
-  margin-right: 15px;
+  margin-right: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+    margin-top: 20px;
+}
+.contact {
+  margin-top: 15px;   /* sosyal ikonların altına boşluk */
+  color: aliceblue;
+}
+#iletisim img {
+  margin-top: 15px;   /* üstten boşluk */
+  margin-right: 10px;
   vertical-align: middle;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
+ 
+
 
 #iletisim img:hover {
   transform: scale(1.4);
@@ -81,6 +95,6 @@ footer {
   font-weight: bold;
   font-size: 1rem;
   color: white;
-  border-top: 1px solid rgba(255,255,255,0.2);
+  border-top: 1px solid rgba(65, 7, 37, 0.863);
   margin-top: 40px;
 }

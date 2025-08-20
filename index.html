@@ -13,8 +13,6 @@
 
 <body>  
 
-
-
     <style>
         
   body {
@@ -42,67 +40,75 @@
     <p>Merhaba Ben İsmail Aktaş 17 yaşında lise son sınıf öğrencisiyim </p>
   </section>
 
+
+
   <section id="ilgi alanlarım">
-    <h2>İlgi Alanlarım</h2>
-    <ul>
+      <h2>İlgi Alanlarım</h2>
+   <ul>
       <li>Spor</li>
       <li>Oyunlar (genellilkle mobil oyunlar)</li>
       <li>Web Programcılığı</li>
-    </ul>
+   </ul>
   </section>
 
 
 
 <section><h2>Gelecek hedeflerim</h2>
-<ul>
-    <li>iyi bir web programcısı olmak</li>
-    <li>yurtdışına çıkmak</li>
-    <li>evli, mutlu, çocuklu</li>
-</ul>
-</section>
+      <ul>
+       <li>iyi bir web programcısı olmak</li>
+       <li>yurtdışına çıkmak</li>
+       <li>evli, mutlu, çocuklu</li> 
+     </ul>
+       </section>
 
 
 
 <section id="iletisim">
-  <h2>İletişim</h2>
-  <p>E-posta: ismailaz984@gmail.com</a></p>  <!-- anasayfa mail   -->
+   <h2>İletişim</h2>
+    <p>Sosyal Medya Adresleri</p>
+      <a href="https://www.instagram.com/no name" target="_blank" rel="noopener noreferrer">    <!-- Instagram -->
+         <img src="media/download-removebg-preview (1).png" alt="instagram" width="40" height="50">
+     </a>
+      <a href="https://www.facebook.com/no name" target="_blank" rel="noopener noreferrer">      <!-- Facebook -->
+         <img src="media/facebook-logo-png_seeklogo-480533-removebg-preview.png" alt="facebook" width="40" height="50">
+     </a>
+      <a href="https://x.com/no name " target="_blank" rel="noopener noreferrer">   <!-- X (eski Twitter) -->
+         <img src="media/download-removebg-preview.png" alt="x" width="50" height="50">
+     </a>
+
+    <div class="contact"></div>
 
 
-  <a href="https://www.instagram.com/yanisolzq" target="_blank" rel="noopener noreferrer"> <!-- sosyal medya ikonları  -->
-  <img src="download-removebg-preview (1).png" alt="instagram" width="40" height="50">
-</a>
+    <!-- eposta gönderme  -->
+ <form action="https://formsubmit.co/el/makabu" method="POST">
+  <input type="text" name="name" placeholder="adınız " required>
+  <input type="email" name="email" placeholder="mail adresiniz" required>
+  <textarea name="message" placeholder="Mesajınız" required></textarea>
+
+  <!-- Opsiyonel: gönderim sonrası yönlendirme (kendi site URL'n ile değiştir) -->
+  <input type="hidden" name="_next" value="http://localhost:3000/thank-you.html">
+
+  <!-- Opsiyonel: ilk testte captcha devre dışı bırakmak için -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- Opsiyonel: gelen e-postanın konusu -->
+  <input type="hidden" name="_subject" value="Web sitemden yeni mesaj">
+
+  <button type="submit">Gönder</button>
 
 
-
-  <a href="https://www.facebook.com/no name" target="_blank" rel="noopener noreferrer">
-  <img src="facebook-logo-png_seeklogo-480533-removebg-preview.png" alt="facebook" width="40" height="50">
-</a>
-
-<a href="https://x.com/no name" target="_blank" rel="noopener noreferrer">
-  <img src="download-removebg-preview.png" alt="x" width="50" height="50">
-</a>
-   <!-- buraya kadar  -->
-
+</form>
+</section>
 
 
 
 
   <footer>
     <p>İSMAİL AKTAŞ</p> 
-  </footer>        <!-- en alt   -->
 
-
-
-<a href="hakkımda.html" style="background-color: aliceblue;" >Otobiyografi→ </a>  <!-- otobiyogrofi link  -->
+  <a href="hakkımda.html" style="background-color: gray" >Otobiyografi→ </a>  <!-- otobiyogrofi link  -->
   
-
-
-
-
-
-
-
-
+  </footer> <!-- en alt   -->
 
 </body>
 </html>
