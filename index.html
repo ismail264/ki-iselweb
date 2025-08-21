@@ -78,28 +78,22 @@
 
     <div class="contact"></div>
 
-
-    <!-- eposta gönderme  -->
- <form action="https://formsubmit.co/el/makabu" method="POST">
-  <input type="text" name="name" placeholder="adınız " required>
-  <input type="email" name="email" placeholder="mail adresiniz" required>
-  <textarea name="message" placeholder="Mesajınız" required></textarea>
-
-  <!-- Opsiyonel: gönderim sonrası yönlendirme (kendi site URL'n ile değiştir) -->
-  <input type="hidden" name="_next" value="http://localhost:3000/thank-you.html">
-
-  <!-- Opsiyonel: ilk testte captcha devre dışı bırakmak için -->
-  <input type="hidden" name="_captcha" value="false">
-
-  <!-- Opsiyonel: gelen e-postanın konusu -->
-  <input type="hidden" name="_subject" value="Web sitemden yeni mesaj">
-
-  <button type="submit">Gönder</button>
-
-
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xeozbbga"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
-</section>
-
 
 
 
@@ -109,6 +103,10 @@
   <a href="hakkımda.html" style="background-color: gray" >Otobiyografi→ </a>  <!-- otobiyogrofi link  -->
   
   </footer> <!-- en alt   -->
+
+
+
+
 
 </body>
 </html>
