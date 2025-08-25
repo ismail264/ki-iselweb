@@ -1,3 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-  alert("web siteme hoş geldin");
+  const welcomed = sessionStorage.getItem("welcomed");
+  if (!welcomed) {
+    alert("web siteme hoş geldin");
+    sessionStorage.setItem("welcomed", "true");
+  }
 });
