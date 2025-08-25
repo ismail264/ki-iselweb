@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-  const welcomed = sessionStorage.getItem("welcomed");
-  if (!welcomed) {
-    alert("web siteme hoş geldin");
+  // Daha önce hoş geldin mesajı gösterilmiş mi kontrol et
+  if (!sessionStorage.getItem("welcomed")) {
+    alert("Web siteme hoş geldin");
+    // Gösterildikten sonra sessionStorage'a kaydet
     sessionStorage.setItem("welcomed", "true");
   }
 });
