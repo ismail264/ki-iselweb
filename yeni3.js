@@ -4,5 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     alert("Web siteme hoş geldin");
     // Gösterildikten sonra sessionStorage'a kaydet
     sessionStorage.setItem("welcomed", "true");
+    
   }
 });
+
